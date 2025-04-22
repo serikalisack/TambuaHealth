@@ -98,15 +98,13 @@ cd Backend && npm install && npm run server
 cd Frontend && npm install && npm run dev
 ```
 
-## 🧑‍💻 About the Author  
+## 🧑‍💻 About the Author   
 
-## 🧑‍💻 About the Author  
-
-### 👋🏾 Hey there, I'm **Serikali Isack**  
+### 👋🏾 **Hey there..**  
+#### I'm **Serikali**, passionate student, developer dedicated to leveraging technology for impactful solutions. Interesrted in AI, software development, and innovative technologies.
 🚀 **Machine Learning Engineer** • 🖥️ **Full Stack Web Developer** • 📱 **Mobile App Developer**  
 
-I build intelligent applications that bridge **AI + intuitive UI/UX** to solve real-world problems.  
-From **predictive healthcare** to **seamless user experiences**, I craft end-to-end digital solutions—web, mobile, and beyond.  
+🌟 I am a lifelong learner, constantly exploring new technologies and methodologies to enhance my skills and knowledge in the field.  
 
 ---
 
@@ -125,23 +123,4 @@ From **predictive healthcare** to **seamless user experiences**, I craft end-to-
 📧 **Email**: reach out at [serikalidevelopment@gmail.com](mailto:serikalidevelopment@gmail.com) for inquiries or collaboration opportunities! 
 
 
-### 👋🏾 Hey there, I'm **Serikali Isack**  
-🚀 **Machine Learning Engineer** • 🖥️ **Full Stack Web Developer** • 📱 **Mobile App Developer**  
 
-I build intelligent applications that bridge **AI + intuitive UI/UX** to solve real-world problems.  
-From **predictive healthcare** to **seamless user experiences**, I craft end-to-end digital solutions—web, mobile, and beyond.  
-
----
-
-### 🧠 **Expertise & Specialties**  
-✅ Machine Learning & Deep Learning (**Sklearn**, **TensorFlow**, **PyTorch**)  
-✅ Full Stack Web Development (**React**, **Node.js**, **MongoDB**)  
-✅ Cross-platform Mobile Apps (**React Native**, **Flutter**)  
-✅ Clean code, scalable systems, and beautiful UI ✨  
-
----
-
-### 🌍 **Let’s Connect & Collaborate**  
-🔗 Building the future of intelligent systems—one innovation at a time!  
-
-🚀 **Let’s turn ideas into reality!**
