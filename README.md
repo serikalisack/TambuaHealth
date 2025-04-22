@@ -98,21 +98,52 @@ cd Backend && npm install && npm run server
 cd Frontend && npm install && npm run dev
 ```
 
-## 🧑‍💻 About the Author
+## 🧑‍💻 About the Author  
 
-<!-- ![Serikali Isack](/src/assets/AboutImg/team-01.jpg) -->
-![Serikali](Frontend/src/assets/AboutImg/team-01.jpg)
+## 🧑‍💻 About the Author  
 
-### 👋🏾 Hi, I'm **Serikali Isack**  
-**Machine Learning Engineer** • **Full Stack Web Developer** • **Mobile App Developer**
+![Serikali Isack](/src/assets/AboutImg/team-01.jpg)  
 
-🚀 I build intelligent applications that bridge **AI + intuitive UI/UX** to solve real-world problems.  
-From predictive healthcare to seamless user experiences, I craft end-to-end digital solutions — web, mobile, and beyond.
+### 👋🏾 Hey there, I'm **Serikali Isack**  
+🚀 **Machine Learning Engineer** • 🖥️ **Full Stack Web Developer** • 📱 **Mobile App Developer**  
 
-🧠 **I specialize in**:
-- Machine Learning & Deep Learning (Sklearn, TensorFlow, PyTorch)  
-- Full Stack Web Development (React, Node.js, MongoDB)  
-- Cross-platform Mobile Apps (React Native, Flutter)  
-- Clean code, scalable systems, and beautiful UI  
+I build intelligent applications that bridge **AI + intuitive UI/UX** to solve real-world problems.  
+From **predictive healthcare** to **seamless user experiences**, I craft end-to-end digital solutions—web, mobile, and beyond.  
 
-🔗 Let’s connect and collaborate on the future of intelligent systems!
+---
+
+### 🧠 **Expertise & Specialties**  
+✅ Machine Learning & Deep Learning (**Sklearn**, **TensorFlow**, **PyTorch**)  
+✅ Full Stack Web Development (**React**, **Node.js**, **MongoDB**)  
+✅ Cross-platform Mobile Apps (**React Native**, **Flutter**)  
+✅ Clean code, scalable systems, and beautiful UI ✨  
+
+---
+
+### 🌍 **Let’s Connect & Collaborate**  
+🔗 Building the future of intelligent systems—one innovation at a time!  
+
+🚀 **Let’s turn ideas into reality!**
+📧 **Email**: reach out at [serikalidevelopment@gmail.com](mailto:serikalidevelopment@gmail.com) for inquiries or collaboration opportunities! 
+
+
+### 👋🏾 Hey there, I'm **Serikali Isack**  
+🚀 **Machine Learning Engineer** • 🖥️ **Full Stack Web Developer** • 📱 **Mobile App Developer**  
+
+I build intelligent applications that bridge **AI + intuitive UI/UX** to solve real-world problems.  
+From **predictive healthcare** to **seamless user experiences**, I craft end-to-end digital solutions—web, mobile, and beyond.  
+
+---
+
+### 🧠 **Expertise & Specialties**  
+✅ Machine Learning & Deep Learning (**Sklearn**, **TensorFlow**, **PyTorch**)  
+✅ Full Stack Web Development (**React**, **Node.js**, **MongoDB**)  
+✅ Cross-platform Mobile Apps (**React Native**, **Flutter**)  
+✅ Clean code, scalable systems, and beautiful UI ✨  
+
+---
+
+### 🌍 **Let’s Connect & Collaborate**  
+🔗 Building the future of intelligent systems—one innovation at a time!  
+
+🚀 **Let’s turn ideas into reality!**
