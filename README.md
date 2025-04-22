@@ -100,7 +100,8 @@ cd Frontend && npm install && npm run dev
 
 ## 🧑‍💻 About the Author
 
-![Serikali Isack](/src/assets/AboutImg/team-01.jpg)
+<!-- ![Serikali Isack](/src/assets/AboutImg/team-01.jpg) -->
+![Serikali](Frontend/src/assets/AboutImg/team-01.jpg)
 
 ### 👋🏾 Hi, I'm **Serikali Isack**  
 **Machine Learning Engineer** • **Full Stack Web Developer** • **Mobile App Developer**
