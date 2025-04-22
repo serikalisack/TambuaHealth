@@ -84,17 +84,18 @@ TambuaHealth is a powerful diagnostic platform that helps detect heart disease, 
    - Fill a form manually **OR**  
    - Upload prescription *(auto-filled via regex)*  
    - Upload image for cancer detection  
-   ![Input Form Screenshot](screenshots/input-form.png)  
-   ![Prescription Upload Screenshot](screenshots/prescription-upload.png)  
-   ![Image Upload Screenshot](screenshots/image-upload.png)
+   ![Input Form Screenshot](Frontend/screenshots/choose-test.png)  
+   ![Prescription Upload Screenshot](Frontend/screenshots/choose-test.png)  
+   ![Image Upload Screenshot](Frontend/screenshots/choose-test.png)
 
 5. ⚡ **Get Results**: View instant predictions + explanation  
-   ![Results Screenshot](screenshots/results.png)
+   ! Results are generated and displayed for user review
 
 6. 📄 **Download Report**: Generate a PDF diagnosis summary  
-   ![PDF Report Screenshot](screenshots/pdf-report.png)
+   ! Download your results as a PDF for your records.
 
 ```bash
 # Quick start guide
 cd Backend && npm install && npm run server
 cd Frontend && npm install && npm run dev
+```
