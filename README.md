@@ -78,7 +78,7 @@ TambuaHealth is a powerful diagnostic platform that helps detect heart disease, 
    ![Login Screenshot](Frontend/screenshots/login.png)
 
 3. 🧪 **Choose Test**: Select the disease model  
-   ![Choose Test Screenshot](screenshots/choose-test.png)
+   ![Choose Test Screenshot](/Frontend/screenshots/choose-test.png)
 
 4. 📝 **Input Data**:  
    - Fill a form manually **OR**  
