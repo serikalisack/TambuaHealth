@@ -97,3 +97,21 @@ TambuaHealth is a powerful diagnostic platform that helps detect heart disease, 
 cd Backend && npm install && npm run server
 cd Frontend && npm install && npm run dev
 ```
+
+## 🧑‍💻 About the Author
+
+![Serikali Isack](/src/assets/AboutImg/team-01.jpg)
+
+### 👋🏾 Hi, I'm **Serikali Isack**  
+**Machine Learning Engineer** • **Full Stack Web Developer** • **Mobile App Developer**
+
+🚀 I build intelligent applications that bridge **AI + intuitive UI/UX** to solve real-world problems.  
+From predictive healthcare to seamless user experiences, I craft end-to-end digital solutions — web, mobile, and beyond.
+
+🧠 **I specialize in**:
+- Machine Learning & Deep Learning (Sklearn, TensorFlow, PyTorch)  
+- Full Stack Web Development (React, Node.js, MongoDB)  
+- Cross-platform Mobile Apps (React Native, Flutter)  
+- Clean code, scalable systems, and beautiful UI  
+
+🔗 Let’s connect and collaborate on the future of intelligent systems!
