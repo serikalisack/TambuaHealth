@@ -1,23 +1,21 @@
 import React, { useState } from "react";
-import "../App.css";
+import "../styles/AboutPage.css"; // Prefer styles folder
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import Modal from "react-modal";
 
 import team01 from "../assets/AboutImg/team-01.jpg";
 
-
-// Define team members
 const teamMembers = [
   {
     imgUrl: team01,
     name: "Serikali Isack",
     position: "Machine Learning, Full Stack Web Developer and Mobile App Developer",
     github: "https://github.com/serikalisack",
+    linkedin: "https://linkedin.com/in/serikalisack",
+    instagram: "https://instagram.com/serikalisack",
   },
-  
 ];
 
-// Custom modal styles
 const customStyles = {
   content: {
     top: "50%",
@@ -25,19 +23,21 @@ const customStyles = {
     right: "auto",
     bottom: "auto",
     marginRight: "-50%",
-    transform: "translate(-50%, -50%)",
+    transform: "translate(-50%, -50%) scale(0.8)",
     maxWidth: "90%",
     maxHeight: "90%",
     overflow: "hidden",
     padding: 0,
     border: "none",
-    borderRadius: "10px",
-    transition: "opacity 0.5s ease, transform 0.5s ease",
+    borderRadius: "12px",
+    transition: "all 0.4s ease-in-out",
     opacity: 0,
+    boxShadow: "0 10px 40px rgba(0,0,0,0.4)",
   },
   overlay: {
     backgroundColor: "rgba(0, 0, 0, 0.75)",
     transition: "opacity 0.5s ease",
+    zIndex: 1000,
   },
 };
 
@@ -51,20 +51,24 @@ function AboutPage() {
     setSelectedImage(imageUrl);
     setModalIsOpen(true);
     setTimeout(() => {
-      document.querySelector(".ReactModal__Content").style.opacity = 1;
-      document.querySelector(".ReactModal__Content").style.transform =
-        "translate(-50%, -50%) scale(1)";
-    }, 1);
+      const modal = document.querySelector(".ReactModal__Content");
+      if (modal) {
+        modal.style.opacity = 1;
+        modal.style.transform = "translate(-50%, -50%) scale(1)";
+      }
+    }, 50);
   };
 
   const closeModal = () => {
-    document.querySelector(".ReactModal__Content").style.opacity = 0;
-    document.querySelector(".ReactModal__Content").style.transform =
-      "translate(-50%, -50%) scale(0.8)";
+    const modal = document.querySelector(".ReactModal__Content");
+    if (modal) {
+      modal.style.opacity = 0;
+      modal.style.transform = "translate(-50%, -50%) scale(0.8)";
+    }
     setTimeout(() => {
       setModalIsOpen(false);
       setSelectedImage("");
-    }, 500);
+    }, 400);
   };
 
   return (
@@ -76,48 +80,37 @@ function AboutPage() {
             About <span className="highlight">Me</span>
           </h2>
         </div>
+
         <div className="team__wrapper">
-          {teamMembers.map((item, index) => (
+          {teamMembers.map((member, index) => (
             <div className="team__item" key={index}>
-              <div className="team__img">
+              <div className="team__img" onClick={() => openModal(member.imgUrl)}>
                 <img
-                  src={item.imgUrl}
-                  alt={item.name}
-                  onClick={() => openModal(item.imgUrl)}
-                  style={{ cursor: "pointer" }}
+                  src={member.imgUrl}
+                  alt={`Portrait of ${member.name}`}
+                  className="clickable-image"
                 />
               </div>
+
               <div className="team__details">
-                <h4>{item.name}</h4>
-                <p className="description">{item.position}</p>
+                <h4>{member.name}</h4>
+                <p className="description">{member.position}</p>
                 <div className="team__member-social">
-                  <span>
-                    <a
-                      href={item.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                  {member.linkedin && (
+                    <a href={member.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                       <FaLinkedin />
                     </a>
-                  </span>
-                  <span>
-                    <a
-                      href={item.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                  )}
+                  {member.github && (
+                    <a href={member.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                       <FaGithub />
                     </a>
-                  </span>
-                  <span>
-                    <a
-                      href={item.instagram}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                  )}
+                  {member.instagram && (
+                    <a href={member.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                       <FaInstagram />
                     </a>
-                  </span>
+                  )}
                 </div>
               </div>
             </div>
@@ -131,7 +124,7 @@ function AboutPage() {
         style={customStyles}
         contentLabel="Enlarged Image"
       >
-        <img src={selectedImage} alt="Enlarged view" className="modal-image" />
+        <img src={selectedImage} alt="Team Member Enlarged" className="modal-image" />
       </Modal>
     </section>
   );

@@ -1,0 +1,81 @@
+.our__team {
+  padding: 3rem 1rem;
+  background-color: #f7f9fc;
+  text-align: center;
+}
+
+.team__content .subtitle {
+  color: #888;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.team__content h2 {
+  font-size: 2rem;
+  color: #222;
+}
+
+.highlight {
+  color: #007bff;
+}
+
+.team__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.team__item {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+  width: 300px;
+}
+
+.team__item:hover {
+  transform: translateY(-5px);
+}
+
+.team__img img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.team__img:hover img {
+  transform: scale(1.05);
+}
+
+.team__details h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.description {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.team__member-social a {
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+  color: #444;
+  transition: color 0.3s ease;
+}
+
+.team__member-social a:hover {
+  color: #007bff;
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
